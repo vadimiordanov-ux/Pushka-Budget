@@ -1,0 +1,770 @@
+{
+  "@@locale": "uk",
+  "tabHome": "Огляд",
+  "tabTxs": "Стрічка",
+  "tabStats": "Аналітика",
+  "tabCats": "Категорії",
+  "tabMore": "Ще",
+  "budget": "БЮДЖЕТ",
+  "settingsTitle": "НАЛАШТУВАННЯ",
+  "sync": "Синхронізувати",
+  "syncing": "Синхронізую…",
+  "synced": "Синхронізовано",
+  "syncErr": "Помилка синхронізації",
+  "offline": "Офлайн — показую збережене",
+  "spent": "Витрачено",
+  "incomePill": "Надходження",
+  "leftover": "Залишок періоду",
+  "perDay": "/день",
+  "overspend": "Перевитрата",
+  "safeL1": "безпечно витрачати",
+  "safeL2": "дн до кінця періоду",
+  "inclPlanned": "з урахуванням планових",
+  "sortChip": "Розкидати",
+  "noCat": "Без категорії",
+  "upcoming": "НАЙБЛИЖЧІ ПЛАТЕЖІ",
+  "upcomingNone": "До кінця періоду планових платежів немає",
+  "today": "сьогодні",
+  "tomorrow": "завтра",
+  "inDays": "через",
+  "daysS": "дн",
+  "totalUpcoming": "разом до кінця періоду",
+  "limit": "Ліміт",
+  "of": "з",
+  "limitOver": "Ліміт перевищено",
+  "limitNear": "Ліміт майже вичерпано",
+  "save": "Зберегти",
+  "deleteBtn": "Видалити",
+  "cancelUndo": "Скасувати",
+  "saved": "Збережено",
+  "deleted": "Видалено",
+  "addTx": "Нова транзакція",
+  "expense": "Витрата",
+  "income": "Дохід",
+  "amountUah": "Сума",
+  "date": "Дата",
+  "category": "Категорія",
+  "subcategory": "Підкатегорія",
+  "note": "Нотатка",
+  "descr": "Опис",
+  "add": "Додати",
+  "planNew": "Новий плановий платіж",
+  "planEdit": "Плановий платіж",
+  "planName": "Назва",
+  "planDay": "День місяця (1–31)",
+  "planNotify": "Нагадувати push за день",
+  "planActive": "Активний",
+  "planAdded": "Додано у планові",
+  "toPlanned": "→ Зробити плановим платежем",
+  "hideFromList": "Прибрати зі списку",
+  "hiddenOk": "Прибрано",
+  "subsHead": "ПІДПИСКИ ТА ПЛАНОВІ",
+  "subsAuto": "знайдено автоматично",
+  "subsNone": "Регулярних платежів не знайдено",
+  "subsLast": "Останні списання",
+  "subsNext": "наступне ≈",
+  "perMo": "/міс",
+  "perYr": "/рік",
+  "moRow": "міс поспіль",
+  "compare": "ПОРІВНЯННЯ ВИТРАТ",
+  "topMerch": "ТОП МЕРЧАНТІВ ПЕРІОДУ",
+  "purchases": "покуп.",
+  "cashbackPeriod": "💛 Кешбек за період",
+  "csvExport": "⬇ Експорт періоду в CSV",
+  "avg": "сер.",
+  "periods": "Періоди",
+  "monthsSeg": "Місяці",
+  "quarters": "Квартали",
+  "payQuarters": "Зарп. кв.",
+  "all": "Всі",
+  "theme": "Тема",
+  "light": "Світла",
+  "dark": "Темна",
+  "auto": "Авто",
+  "chartType": "Тип діаграми",
+  "donut": "Бублик 🍩",
+  "bars": "Бари 📊",
+  "palette": "Палітра",
+  "language": "Мова / Language",
+  "currency": "Валюта",
+  "currencyNote": "Конвертація з ₴ за курсом Monobank (оновлення ~кожні 30 хв). Дані та введення сум — завжди в гривні.",
+  "periodSetup": "Період обліку",
+  "periodSalary": "Зарплатний",
+  "periodMonth": "Календарний місяць",
+  "periodStart": "День початку періоду (1–28)",
+  "periodHint": "Зарплатний: 22-го — 21-го. Зміни застосуються одразу.",
+  "notif": "Сповіщення",
+  "notifOn": "Увімкнути push",
+  "notifOff": "Вимкнути push",
+  "notifActive": "Push увімкнено на цьому пристрої",
+  "notifUnsupported": "Push тут недоступний. iOS: додай застосунок на екран «Додому» (iOS 16.4+), тоді зʼявиться.",
+  "notifNeedVapid": "Спершу задеплой worker і збережи VAPID-ключ у settings (див. DEPLOY.md).",
+  "notifBig": "Транзакція понад, грн",
+  "notifLim": "Ліміт категорії 80%",
+  "notifPlan": "Плановий платіж завтра",
+  "notifSum": "Підсумок періоду в останній день",
+  "notifDenied": "Дозвіл на сповіщення відхилено в системі",
+  "statsNote": "Період обліку",
+  "txsInPeriod": "Транзакцій у періоді",
+  "uncategorized": "Без категорії",
+  "logout": "Вийти з акаунта",
+  "loginTitle": "Наш бюджет",
+  "loginSub": "Ваші гроші під контролем",
+  "loginBtn": "Увійти →",
+  "loginBad": "Невірний email або пароль",
+  "show": "Показати",
+  "hide": "Сховати",
+  "emptyTxs": "Порожньо.\nТранзакції періоду зʼявляться тут самі.",
+  "calc": "Рахую…",
+  "noData": "Немає даних",
+  "loadErr": "Не вдалося завантажити дані",
+  "retry": "Спробувати ще раз",
+  "install": "⤓ Встановити застосунок",
+  "iosInstall": "Встанови як застосунок: Поділитись → «На екран — Додому»",
+  "aiSort": "✨ AI-розкидати все",
+  "aiRunning": "AI категоризує…",
+  "aiDone": "AI: категоризовано",
+  "aiErr": "AI-помилка",
+  "editAmountNote": "банківська: бекфіл може повернути оригінал",
+  "manual": "вручну",
+  "card": "картка",
+  "internalLbl": "внутрішній",
+  "reimbLbl": "компенсація",
+  "cadence": "Періодичність",
+  "cadWeek": "Тиждень",
+  "cadMonth": "Місяць",
+  "cadQuarter": "3 міс",
+  "cadHalf": "6 міс",
+  "cadYear": "Рік",
+  "perWk": "/тиж",
+  "perQ": "/3міс",
+  "perHalf": "/6міс",
+  "nextDate": "Дата наступного платежу",
+  "totalSubs": "Всього",
+  "suggestions": "Регулярні за останні місяці",
+  "loginTab": "Вхід",
+  "regTab": "Реєстрація",
+  "registerBtn": "Створити акаунт →",
+  "checkEmail": "Перевір пошту — там лист для підтвердження",
+  "regBad": "Не вдалося зареєструватися",
+  "passShort": "Пароль мін. 6 символів",
+  "onbSkip": "Пропустити",
+  "onbNext": "Далі",
+  "onbStart": "Почати",
+  "periodOne": "Період",
+  "searchPh": "Пошук: опис, нотатка, сума…",
+  "showMore": "Показати ще",
+  "txsFound": "транзакцій",
+  "filters": "Фільтри",
+  "type": "Тип",
+  "amountFrom": "Сума від",
+  "amountTo": "до",
+  "apply": "Застосувати",
+  "reset": "Скинути",
+  "widgets": "Віджети",
+  "widgetsHint": "Перетягни, щоб змінити порядок · перемкни, щоб сховати",
+  "cashbackEarned": "Нараховано за період",
+  "cashbackTop": "Топ кешбек-мерчанти",
+  "vsPrev": "до минулого",
+  "offlineRo": "Офлайн: ця дія потребує мережі",
+  "queued": "Збережено офлайн — синхронізую, коли зʼявиться мережа",
+  "flushed": "Офлайн-зміни синхронізовано",
+  "autoInt": "переказів позначено автоматично",
+  "creditHead": "КРЕДИТНИЙ ЛІМІТ",
+  "creditUsed": "Використано разом",
+  "creditAvail": "Доступно",
+  "creditShow": "Показувати кредитний ліміт на Огляді",
+  "instTitle": "Оплати частинами",
+  "instAdd": "＋ Нова розстрочка",
+  "instBank": "Банк",
+  "instTotal": "Повна сума",
+  "instMonthly": "Один платіж",
+  "instPays": "Платежів усього",
+  "instDoneN": "Вже внесено",
+  "instNext": "Наступний платіж",
+  "instPaid": "Сплачено",
+  "instLeft": "Залишилось",
+  "instPlus": "＋ платіж внесено",
+  "instDoneBadge": "Погашено",
+  "instNone": "Розстрочок немає. Додай першу — і бачитимеш прогрес та найближчі платежі.",
+  "instMigr": "Таблиці installments немає — виконай migration_v3_2.sql",
+  "instSum": "Активні розстрочки",
+  "back": "← Назад",
+  "secLook": "Вигляд",
+  "secLang": "Мова та валюта",
+  "ratesOff": "Курс недоступний — суми показую в ₴.",
+  "onb1Icon": "🎯",
+  "onb1Title": "Наш бюджет для двох",
+  "onb1Desc": "Витрати, доходи й залишок періоду — картки вас обох в одному застосунку, із синхронізацією між двома телефонами.",
+  "onb2Icon": "🗂️",
+  "onb2Title": "Розкидай по категоріях",
+  "onb2Desc": "Нерозібране — свайп по транзакції або тап по категорії. Правила запамʼятають вибір назавжди.",
+  "onb3Icon": "📌",
+  "onb3Title": "Планові та підписки",
+  "onb3Desc": "Регулярні платежі на тиждень, місяць чи рік. Бачиш, скільки виходить за місяць і за рік.",
+  "onb4Icon": "🔔",
+  "onb4Title": "Ліміти й нагадування",
+  "onb4Desc": "Ліміт на категорію з прогресом і push перед плановим платежем. Все під контролем.",
+  "xOverBudget": "Понад бюджет",
+  "xLimitExhausted": "Ліміт\nвичерпано",
+  "xOtherSlice": "▫ Інше",
+  "xPresetAdded": "{name} додано",
+  "@xPresetAdded": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "xUndone": "Скасовано",
+  "xUndoFail": "Не вдалося скасувати",
+  "xSaveFail": "Не збереглось",
+  "xAddFail": "Не додалось",
+  "xSavedSeeHome": "Збережено — глянь на Огляд",
+  "xRuleRemember": "Запам'ятати правило: «{desc}»{mcc} (точний збіг) завжди сюди + застосувати до минулих, включно з уже категоризованими",
+  "@xRuleRemember": {
+    "placeholders": {
+      "desc": {},
+      "mcc": {}
+    }
+  },
+  "xInternalCheck": "Внутрішній переказ (між нашими картками) — не рахувати",
+  "xSplitBtn": "✂️ Розбити на частини",
+  "xReimbLink": "↩ Це компенсація — привʼязати до витрати",
+  "xReimbUnlink": "↩ Відвʼязати від витрати",
+  "xDeleteTx": "Видалити транзакцію",
+  "xDeleteBankWarn": "Це банківська транзакція — повторний бекфіл може її відновити. Видалити?",
+  "xDeleteWarn": "Видалити транзакцію{split}?",
+  "@xDeleteWarn": {
+    "placeholders": {
+      "split": {}
+    }
+  },
+  "xDeleteWarnSplit": " разом із частинами спліта",
+  "xAmountInvalid": "Вкажи коректну суму",
+  "xAmountLtSplit": "Сума менша за вже розбиті частини",
+  "xRuleCreated": "Правило створено, оновлено ще {n}",
+  "@xRuleCreated": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "xRuleCreatedShort": "Правило створено",
+  "xUpdatedMore": ", оновлено ще {n}",
+  "@xUpdatedMore": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "xSplitInfo": "Розбито на {n}: {sum} з {total}",
+  "@xSplitInfo": {
+    "placeholders": {
+      "n": {},
+      "sum": {},
+      "total": {}
+    }
+  },
+  "xReimbInfo": "↩ Компенсовано {sum} → нетто {net}",
+  "@xReimbInfo": {
+    "placeholders": {
+      "sum": {},
+      "net": {}
+    }
+  },
+  "xReimbLinkedFlag": "↩ Прив'язано як компенсація витрати",
+  "xCashbackMeta": "кешбек {sum}",
+  "@xCashbackMeta": {
+    "placeholders": {
+      "sum": {}
+    }
+  },
+  "xSubPh": "Готова їжа, Метро…",
+  "xNotePh": "Дюна 3, борг Кості…",
+  "xSplitTitle": "✂️ Розбити {total}",
+  "@xSplitTitle": {
+    "placeholders": {
+      "total": {}
+    }
+  },
+  "xSplitMeta": "{desc} — частини стануть окремими транзакціями зі своїми категоріями, залишок лишиться на батьківській.",
+  "@xSplitMeta": {
+    "placeholders": {
+      "desc": {}
+    }
+  },
+  "xSplitLeft": "Не розподілено: {left} з {total}",
+  "@xSplitLeft": {
+    "placeholders": {
+      "left": {},
+      "total": {}
+    }
+  },
+  "xSplitUsedBefore": " (раніше розбито {used})",
+  "@xSplitUsedBefore": {
+    "placeholders": {
+      "used": {}
+    }
+  },
+  "xSplitAddPart": "+ ще частина",
+  "xSplitDo": "Розбити",
+  "xSplitNeedAmounts": "Вкажи суми частин",
+  "xSplitTooMuch": "Сума частин більша за транзакцію",
+  "xSplitFail": "Не вдалося розбити",
+  "xSplitDone": "Розбито",
+  "xSplitWhatPh": "що це (Полуниця…)",
+  "xGrnPh": "грн",
+  "xReimbTitle": "↩ Компенсація {amount}",
+  "@xReimbTitle": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "xReimbMeta": "Обери витрату, за яку тобі скинули — вона рахуватиметься нетто, а цей переказ зникне з доходів. Пошук — по всій історії.",
+  "xReimbSearchPh": "Пошук: опис або сума (напр. 961)…",
+  "xNothingFound": "Нічого не знайдено",
+  "xTryChangeQuery": "Спробуйте змінити запит або фільтр",
+  "xReimbLinked": "Прив'язано, витрата рахується нетто",
+  "xReimbUnlinked": "Відв'язано",
+  "xExpenseFallback": "Витрата",
+  "xNeedAmount": "Вкажи суму",
+  "xAdded": "Додано",
+  "xOptionalPh": "необовʼязково",
+  "xDescPh": "Полуниця на ринку",
+  "xSortLeft": "Розкидати: залишилось {n}",
+  "@xSortLeft": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "xNoDesc": "(без опису)",
+  "xSortRule": "Створити правило для «{desc}»{mcc} (точний збіг) і застосувати до минулих",
+  "@xSortRule": {
+    "placeholders": {
+      "desc": {},
+      "mcc": {}
+    }
+  },
+  "xSkip": "Пропустити",
+  "xReimbBtn": "↩ Компенсація",
+  "xInternalBtn": "⇄ Внутрішній",
+  "xExit": "← Вийти",
+  "xMarkedInternal": "Позначено як внутрішній",
+  "xAllSorted": "🎉 Все розкидано!",
+  "xToOverview": "← На огляд",
+  "xWSummary": "Огляд періоду",
+  "xWCashflow": "Грошовий потік",
+  "xWWeek": "Витрати за тиждень",
+  "xWCategories": "Категорії по місяцях",
+  "xWInstall": "Розстрочки",
+  "xWPlanned": "Планові платежі",
+  "xWCompareFull": "Порівняння витрат",
+  "xWCashbackFull": "Кешбек за період",
+  "xWMerchantsFull": "Топ мерчантів періоду",
+  "xWSubsFull": "Підписки та планові",
+  "xIncomeLeg": "Дохід",
+  "xExpenseLeg": "Витрати",
+  "xCfHint": "← гортай, щоб побачити попередні місяці",
+  "xThousandSuffix": "к",
+  "xAvgShort": "сер.",
+  "xAvgPerMo": "сер. {x} / міс",
+  "@xAvgPerMo": {
+    "placeholders": {
+      "x": {}
+    }
+  },
+  "xNMonths": "{n} міс",
+  "@xNMonths": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "xSpentAmount": "Витрачено {amount}",
+  "@xSpentAmount": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "xPerMonth2": "на місяць",
+  "xNofM": "{n} з {m} платежів",
+  "@xNofM": {
+    "placeholders": {
+      "n": {},
+      "m": {}
+    }
+  },
+  "xPctPaid": "{p}% сплачено",
+  "@xPctPaid": {
+    "placeholders": {
+      "p": {}
+    }
+  },
+  "xLeftAmount": "залишилось {x}",
+  "@xLeftAmount": {
+    "placeholders": {
+      "x": {}
+    }
+  },
+  "xNoActiveInst": "Немає активних розстрочок",
+  "xAddBtn": "Додати",
+  "xOnDay": "{d} числа",
+  "@xOnDay": {
+    "placeholders": {
+      "d": {}
+    }
+  },
+  "xNoPlanned": "Немає планових платежів",
+  "xNPayments": "{n} платежів",
+  "@xNPayments": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "xDayOrd": "{d}-го",
+  "@xDayOrd": {
+    "placeholders": {
+      "d": {}
+    }
+  },
+  "xOff2": "вимк.",
+  "xPerMoShort": "/ міс",
+  "xSpentPeriod": "Витрачено за період",
+  "xReceivedPeriod": "Надійшло за період",
+  "xCatsOps": "{n} категорій · {m} операцій",
+  "@xCatsOps": {
+    "placeholders": {
+      "n": {},
+      "m": {}
+    }
+  },
+  "xPctLimits": "{p}% лімітів",
+  "@xPctLimits": {
+    "placeholders": {
+      "p": {}
+    }
+  },
+  "xNoOps": "немає операцій",
+  "xNOps": "{n} операцій",
+  "@xNOps": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "xLimitAmount": "ліміт {x}",
+  "@xLimitAmount": {
+    "placeholders": {
+      "x": {}
+    }
+  },
+  "xOverLimitBy": "⚠ понад ліміт на {x}",
+  "@xOverLimitBy": {
+    "placeholders": {
+      "x": {}
+    }
+  },
+  "xPctOfTotal": "{p}% від суми",
+  "@xPctOfTotal": {
+    "placeholders": {
+      "p": {}
+    }
+  },
+  "xArchive": "АРХІВ",
+  "xAddCategory": "Додати категорію",
+  "xOrderSaved": "Порядок збережено",
+  "xCategory": "Категорія",
+  "xNewCategory": "Нова категорія",
+  "xName": "Назва",
+  "xEmojiLabel": "Emoji — обери або впиши свій",
+  "xColorLabel": "Колір на діаграмі",
+  "xLimitLabel": "Ліміт на період, ₴ — порожньо = без ліміту",
+  "xEg10000": "напр. 10000",
+  "xToArchive": "В архів",
+  "xFromArchive": "Повернути з архіву",
+  "xDeleteCategory": "Видалити категорію",
+  "xDeleteCatConfirm": "Видалити «{name}»?\n\nТранзакцій з цією категорією: {count} — вони стануть «без категорії». Правила автокатегоризації для неї теж видаляться.\n\nЦе незворотньо. Точно видалити?",
+  "@xDeleteCatConfirm": {
+    "placeholders": {
+      "name": {},
+      "count": {}
+    }
+  },
+  "xNameEmpty": "Назва порожня",
+  "xSaveFailDup": "Не збереглось (можливо, назва вже є)",
+  "xDeleteFail": "Не вдалося видалити",
+  "xCatDeleted": "Категорію видалено",
+  "xSavedNoLimit": "Збережено без ліміту — виконай migration.sql",
+  "xOpsAvg": "{n} операцій · сер. {avg}",
+  "@xOpsAvg": {
+    "placeholders": {
+      "n": {},
+      "avg": {}
+    }
+  },
+  "xNoLimitRel": "Без ліміту · відносно періоду",
+  "x6moDynamics": "Динаміка за 6 місяців",
+  "xOperations": "ОПЕРАЦІЇ",
+  "xNoOpsPeriod": "Немає операцій у цьому періоді",
+  "xTxAutoAppear": "Транзакції зʼявляться тут автоматично",
+  "xEdit": "Редагувати",
+  "xAllTx": "Всі транзакції",
+  "xLook": "Оформлення",
+  "xSecurity": "Безпека",
+  "xPeriodStats": "Статистика періоду",
+  "xCreditLimitSec": "Кредитний ліміт",
+  "xDataBackups": "Дані та резервні копії",
+  "xSupport": "Підтримка",
+  "xAbout": "Про застосунок",
+  "xProfile": "Профіль",
+  "xFirstName": "Імʼя",
+  "xAppTheme": "Тема застосунку",
+  "xMode": "Режим",
+  "xChartLook": "Вигляд діаграми",
+  "xRing": "Кільце",
+  "xThin": "Тонке",
+  "xSegments": "Сегменти",
+  "xChartPalette": "Палітра діаграми",
+  "xPal0": "Тепла",
+  "xPal1": "Океан",
+  "xPal2": "Ліс",
+  "xPal3": "Захід",
+  "xPal4": "Неон",
+  "xPal5": "Монохром",
+  "xClassic": "Класик",
+  "xPushNotifs": "Push-сповіщення",
+  "xNotifyWhenAbove": "Сповіщати, коли одна витрата більша за:",
+  "xAppLock": "Захист застосунку",
+  "xLockSub": "{method} щоразу, коли ти повертаєшся до застосунку",
+  "@xLockSub": {
+    "placeholders": {
+      "method": {}
+    }
+  },
+  "xLockBioOrPin": "Face ID / Touch ID або PIN-код",
+  "xPinCode": "PIN-код",
+  "xBioOnly": "Лише Face ID / Touch ID",
+  "xAutoLock": "Автоблокування",
+  "xAutoLockSub": "Блокувати після періоду бездіяльності",
+  "xImmediately": "Одразу",
+  "xNMin": "{n} хв",
+  "@xNMin": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "xAddPin": "Додати PIN-код",
+  "xPinBackupSub": "Резервний спосіб розблокування",
+  "xChangePin": "Змінити PIN-код",
+  "xTxsLbl": "транзакцій",
+  "xAvgPerDay": "у середньому / день",
+  "xBiggestCheck": "найбільший чек",
+  "xNoCatLower": "без категорії",
+  "xTopCategory": "Найбільша категорія",
+  "xBusiestDay": "Найактивніший день",
+  "xShowOnHome": "Показувати на Головній",
+  "xCreditCardSub": "Картка з доступним лімітом та витратами",
+  "xCreditEmpty": "Дані зʼявляться після першої синхронізації з токеном Monobank",
+  "xCsvExportTitle": "Експорт CSV",
+  "xCsvSub": "Транзакції поточного періоду",
+  "xJsonBackup": "Резервна копія JSON",
+  "xJsonSub": "Усі дані · транзакції, категорії, плани",
+  "xImport": "Імпорт з резервної копії",
+  "xImportSub": "Відновити транзакції з JSON-файлу",
+  "xContactSupport": "Звʼязатися з підтримкою",
+  "xContactSub": "Опишіть проблему — відповімо листом",
+  "xHelp": "Довідка",
+  "xCommunity": "Спільнота",
+  "xRate": "Оцінити",
+  "xCommunitySoon": "Спільнота — скоро 🤝",
+  "xThanks": "Дякуємо! ⭐",
+  "xAppName": "Бюджет",
+  "xAboutSub": "Особистий фінансовий трекер",
+  "xAboutText": "Простий трекер особистих фінансів: категорії витрат, планові платежі, розстрочки, статистика й аналітика. Дані зберігаються на пристрої; два телефони синхронізуються напряму по Wi-Fi. Роби резервні копії у «Дані та резервні копії».",
+  "xVersion": "Версія",
+  "xUpdated": "Оновлено",
+  "xPlatform": "Платформа",
+  "xEraseData": "Стерти всі дані",
+  "xEraseDataConfirm": "Стерти ВСІ дані застосунку? Транзакції, категорії, плани, токени — все буде видалено безповоротно. Спершу зроби резервну копію JSON.",
+  "xPhotoFail": "Не вдалося обробити фото",
+  "xLockedTitle": "Бюджет заблоковано",
+  "xConfirmYou": "Підтвердь, що це ти",
+  "xUnlock": "Розблокувати",
+  "xEnterPin": "Ввести PIN-код",
+  "xResetLock": "Скинути захист",
+  "xTooManyTries": "Забагато спроб",
+  "xTryInS": "Спробуй через {s}с",
+  "@xTryInS": {
+    "placeholders": {
+      "s": {}
+    }
+  },
+  "xResetLockQ": "Скинути захист?",
+  "xResetLockSub": "PIN-код і біометрію (якщо налаштовані) буде видалено.\nЗахист застосунку вимкнеться — налаштуй його знову в Налаштуваннях.",
+  "xReset2": "Скинути",
+  "xCancel": "Скасувати",
+  "xTypePin": "Введи PIN-код",
+  "xForgotPin": "Забув PIN-код?",
+  "xSetPin": "Встанови PIN-код",
+  "xRepeatPin": "Повтори PIN-код",
+  "xRepeatSub": "Введи ще раз для підтвердження",
+  "xPinMismatch": "PIN не збігається, спробуй ще раз",
+  "xHowProtect": "Як захищати застосунок?",
+  "xChooseUnlock": "Обери спосіб розблокування",
+  "xLockOnBio": "Захист увімкнено — лише біометрія",
+  "xLockOn": "Захист застосунку увімкнено",
+  "xLockOff": "Захист застосунку вимкнено",
+  "xLockResetToast": "Захист вимкнено — налаштуй PIN знову в Налаштуваннях",
+  "xPinUpdated": "PIN-код оновлено",
+  "xPinAdded": "PIN-код додано",
+  "xBioFail": "Не вдалося налаштувати біометрію",
+  "xPickPeriod": "Оберіть період",
+  "xPeriodNote": "Період з {d} числа по {d2} наступного місяця",
+  "@xPeriodNote": {
+    "placeholders": {
+      "d": {},
+      "d2": {}
+    }
+  },
+  "xFuturePeriod": "Це майбутній період",
+  "xPlanPh": "Оренда, Netflix, розстрочка…",
+  "xNeedNameAmount": "Вкажи назву і суму",
+  "xNeedDay": "Вкажи день місяця",
+  "xSupportTitle": "Звернутися в підтримку",
+  "xTo": "Кому",
+  "xSubject": "Тема",
+  "xSubjectPh": "Коротко опишіть проблему",
+  "xMessage": "Повідомлення",
+  "xMessagePh": "Розкажіть детальніше…",
+  "xSendMail": "Надіслати лист",
+  "xPreparingCopy": "Готую копію…",
+  "xBackupSaved": "Резервну копію збережено",
+  "xNoTxInFile": "У файлі немає транзакцій",
+  "xRestoreConfirm": "Відновити {n} транзакцій з копії від {d}?",
+  "@xRestoreConfirm": {
+    "placeholders": {
+      "n": {},
+      "d": {}
+    }
+  },
+  "xImportError": "Помилка імпорту: {e}",
+  "@xImportError": {
+    "placeholders": {
+      "e": {}
+    }
+  },
+  "xRestored": "Відновлено {n} транзакцій",
+  "@xRestored": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "xFileReadFail": "Не вдалося прочитати файл",
+  "xTokensTitle": "Токени Monobank",
+  "xTokensSub": "Особисті токени зберігаються зашифрованими (Android Keystore). Дані нікуди не передаються — телефон сам опитує Monobank.",
+  "xTokenAdd": "Додати токен",
+  "xTokenLabel": "Імʼя власника",
+  "xTokenLabelPh": "Вадім",
+  "xTokenValue": "Токен (X-Token)",
+  "xTokenHint": "Отримай на api.monobank.ua → «Отримати токен» і встав сюди.",
+  "xTokenRemove": "Видалити токен",
+  "xTokenRemoveQ": "Видалити токен «{label}»? Синхронізація для цього власника зупиниться, транзакції залишаться.",
+  "@xTokenRemoveQ": {
+    "placeholders": {
+      "label": {}
+    }
+  },
+  "xTokenAdded": "Токен додано — тягну історію…",
+  "xSyncNow": "Синхронізувати зараз",
+  "xLastSync": "Остання синхронізація",
+  "xNever": "ще не було",
+  "xBackfillNote": "Історія підтягнеться за ~3 місяці; далі — автоматично кожні 15 хв у фоні.",
+  "xNoTokens": "Додай токен Monobank — і транзакції зʼявлятимуться самі.",
+  "xCardFallback": "картка {id}…",
+  "@xCardFallback": {
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "xAutoTransfers": "⇄ {n} переказів позначено автоматично",
+  "@xAutoTransfers": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "xSyncedN": "Синхронізовано · {n}",
+  "@xSyncedN": {
+    "placeholders": {
+      "n": {}
+    }
+  },
+  "ntfBigFallback": "Нова транзакція",
+  "ntfLimitOverTitle": "⚠ Ліміт перевищено: {cat}",
+  "@ntfLimitOverTitle": {
+    "placeholders": {
+      "cat": {}
+    }
+  },
+  "ntfLimitNearTitle": "Ліміт майже вичерпано: {cat}",
+  "@ntfLimitNearTitle": {
+    "placeholders": {
+      "cat": {}
+    }
+  },
+  "ntfLimitBody": "{spent} з {limit} ({pct}%)",
+  "@ntfLimitBody": {
+    "placeholders": {
+      "spent": {},
+      "limit": {},
+      "pct": {}
+    }
+  },
+  "ntfPlanTitle": "Завтра: {name}",
+  "@ntfPlanTitle": {
+    "placeholders": {
+      "name": {}
+    }
+  },
+  "ntfPlanBody": "Плановий платіж −{amount}{note}",
+  "@ntfPlanBody": {
+    "placeholders": {
+      "amount": {},
+      "note": {}
+    }
+  },
+  "ntfSummaryTitle": "Підсумок періоду",
+  "ntfSummaryBody": "Витрачено {exp} · надійшло {inc} · залишок {left}",
+  "@ntfSummaryBody": {
+    "placeholders": {
+      "exp": {},
+      "inc": {},
+      "left": {}
+    }
+  },
+  "xSyncTitle": "Синхронізація двох пристроїв",
+  "xSyncSub": "Обидва телефони мають бути в одній Wi-Fi мережі. Дані передаються напряму між пристроями — без хмари й серверів.",
+  "xSyncHostBtn": "Показати код запрошення",
+  "xSyncStopBtn": "Зупинити",
+  "xSyncHostHint": "На другому телефоні введи адресу та код:",
+  "xSyncCode": "Код запрошення",
+  "xSyncAddr": "Адреса (IP другого телефона)",
+  "xSyncJoinBtn": "Синхронізувати",
+  "xSyncAgainBtn": "Синхронізувати з останнім пристроєм",
+  "xSyncDone": "Синхронізовано: отримано {n}, надіслано {m}",
+  "@xSyncDone": {
+    "placeholders": {
+      "n": {},
+      "m": {}
+    }
+  },
+  "xSyncFail": "Не вдалося зʼєднатися — перевір Wi-Fi, адресу і код",
+  "xSyncWhat": "Синхронізуються: транзакції та їх категорії, категорії, правила, планові платежі, розстрочки. Токени Monobank і налаштування вигляду — ні.",
+  "xAiSection": "AI-категоризація",
+  "xAiKeyLabel": "Ключ Anthropic API",
+  "xAiKeyHint": "Ключ зберігається зашифрованим. Кнопка «✨ AI-розкидати» зʼявиться в помічнику сортування.",
+  "xAiKeySaved": "Ключ збережено",
+  "xAiKeyRemoved": "Ключ видалено",
+  "xBatteryTitle": "Фонова синхронізація без обмежень",
+  "xBatterySub": "Дозволь застосунку працювати у фоні, інакше система може відкладати перевірку транзакцій",
+  "xBatteryBtn": "Дозволити роботу у фоні",
+  "xWPeriods": "Витрати за періодами",
+  "xGranPeriods": "Періоди",
+  "xGranMonths": "Місяці",
+  "xGranQuarters": "Квартали",
+  "xGranPayQ": "Зарп. кв."
+}

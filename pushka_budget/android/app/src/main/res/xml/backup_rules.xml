@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android Auto Backup (≤ Android 11): the drift SQLite DB rides along to the
+     user's Google backup, so data survives uninstall / moves to a new phone.
+     Monobank tokens are EXCLUDED by design: Keystore keys don't transfer, the
+     ciphertext would be garbage, and banking credentials must be re-entered
+     on a new device anyway. -->
+<full-backup-content>
+    <include domain="database" path="."/>
+    <exclude domain="sharedpref" path="FlutterSecureStorage.xml"/>
+</full-backup-content>

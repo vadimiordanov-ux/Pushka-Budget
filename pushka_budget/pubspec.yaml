@@ -1,0 +1,75 @@
+name: pushka_budget
+description: "Пушка-бюджет — local-first personal budget tracker (Flutter port of the PWA)."
+publish_to: "none"
+version: 4.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # state
+  flutter_riverpod: ^2.6.1
+
+  # data layer — drift chosen over sqflite: the schema carries FK integrity
+  # (transactions.category_id, self-refs parent_id/reimburses, rules cascade)
+  # and SQL views (credit_by_owner); drift keeps those type-safe + reactive.
+  drift: ^2.22.0
+  drift_flutter: ^0.2.4
+  sqlite3_flutter_libs: ^0.5.26
+  path_provider: ^2.1.4
+  path: ^1.9.0
+
+  # secure token storage: Android Keystore / iOS Keychain
+  flutter_secure_storage: ^9.2.2
+
+  # background polling of Monobank statement API
+  workmanager: ^0.6.0
+
+  # local notifications replacing budget-notify worker + Web Push
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+
+  # app lock
+  local_auth: ^2.3.0
+  crypto: ^3.0.5
+
+  # Monobank HTTP API
+  http: ^1.2.2
+
+  # backup / restore / avatar / mailto
+  share_plus: ^10.0.2
+  file_picker: ^8.1.2
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.2
+  url_launcher: ^6.3.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  drift_dev: ^2.22.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  generate: true # gen-l10n from lib/l10n/*.arb
+
+  assets:
+    - assets/fonts/
+
+  fonts:
+    # Display font — «Unbounded» (topbar, big numbers, section headers)
+    - family: Unbounded
+      fonts:
+        - asset: assets/fonts/Unbounded[wght].ttf
+    # Body font — «Manrope»
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope[wght].ttf

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+ equivalent of backup_rules.xml: cloud backup + device-to-
+     device transfer both include the DB and exclude the secure token store. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="."/>
+        <exclude domain="sharedpref" path="FlutterSecureStorage.xml"/>
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="."/>
+        <exclude domain="sharedpref" path="FlutterSecureStorage.xml"/>
+    </device-transfer>
+</data-extraction-rules>
